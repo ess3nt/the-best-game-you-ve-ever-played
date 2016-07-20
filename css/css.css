@@ -1,0 +1,53 @@
+
+.game{
+    position: relative;
+    width: 300px;
+    height: 500px;
+
+}
+.back{
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue ;
+    position: relative;
+    float: left;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+.player{
+    width: 20px;
+    height: 30px;
+    background-color: black ;
+    float: left;
+    position: absolute;
+    z-index: 1000;
+}
+.lava{
+    width: 20px;
+    height: 20px;
+    background-color: darkred ;
+    float: left;
+
+}
+.wall{
+    width: 20px;
+    height: 20px;
+    background-color: gray ;
+    float: left;
+
+}
+.coin{
+    width: 10px;
+    height: 10px;
+    background-color: yellow ;
+    float: left;
+    position: absolute;
+    z-index: 50;
+
+
+}
+.won{
+    font-size: 100px;
+    text-decoration-color: red;
+
+
+}
